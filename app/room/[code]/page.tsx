@@ -447,7 +447,7 @@ export default function RoomPage() {
                 disabled={selectedRating === null || submitting}
                 className="w-full h-14 bg-indigo-600 text-white font-bold text-lg rounded-2xl shadow transition-all hover:bg-indigo-700 active:scale-95 disabled:opacity-40"
               >
-                {submitting ? 'Locking in…' : 'Lock in rating'}
+                {submitting ? 'Submitting…' : 'Submit My Rating'}
               </button>
             </>
           )}
@@ -530,7 +530,7 @@ export default function RoomPage() {
                 disabled={selectedGuess === null || submitting}
                 className="w-full h-14 bg-orange-500 text-white font-bold text-lg rounded-2xl shadow transition-all hover:bg-orange-600 active:scale-95 disabled:opacity-40"
               >
-                {submitting ? 'Locking in…' : 'Lock in guess'}
+                {submitting ? 'Submitting…' : 'Submit My Guess'}
               </button>
             </>
           )}
